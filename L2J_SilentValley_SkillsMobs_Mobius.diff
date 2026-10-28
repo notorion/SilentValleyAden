@@ -1,0 +1,52 @@
+diff --git dist/game/data/stats/npcs/24500-24599.xml dist/game/data/stats/npcs/24500-24599.xml
+index 85769d34967..86305efca89 100644
+--- dist/game/data/stats/npcs/24500-24599.xml
++++ dist/game/data/stats/npcs/24500-24599.xml
+@@ -602,6 +602,7 @@
+ 			<abnormalResist physical="10" magical="10" />
+ 		</stats>
+ 		<status attackable="true" />
++		<ai type="MAGE" />
+ 		<collision>
+ 			<radius normal="16" />
+ 			<height normal="38.6" />
+@@ -619,6 +620,7 @@
+ 			<skill id="4414" level="2" /> <!-- Standard Type -->
+ 			<skill id="4415" level="5" /> <!-- One-handed Blunt Weapon -->
+ 			<skill id="16512" level="6" /> <!-- Solo Mage Monster -->
++			<skill id="32822" level="1" /> <!-- Energy Ball -->
+ 		</skillList>
+ 		<dropLists>
+ 			<drop>
+@@ -685,6 +687,7 @@
+ 			<skill id="4414" level="2" /> <!-- Standard Type -->
+ 			<skill id="4415" level="9" /> <!-- Bow -->
+ 			<skill id="16513" level="6" /> <!-- Solo Archer Monster -->
++			<skill id="32828" level="1" /> <!-- Rapid Throw -->
+ 		</skillList>
+ 		<dropLists>
+ 			<drop>
+@@ -750,6 +753,7 @@
+ 			<skill id="4414" level="2" /> <!-- Standard Type -->
+ 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+ 			<skill id="16511" level="6" /> <!-- Solo Fighter Monster -->
++			<skill id="32827" level="1" /> <!-- Critical Hit -->
+ 		</skillList>
+ 		<dropLists>
+ 			<drop>
+@@ -815,6 +819,7 @@
+ 			<skill id="4414" level="2" /> <!-- Standard Type -->
+ 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+ 			<skill id="16511" level="6" /> <!-- Solo Fighter Monster -->
++			<skill id="32827" level="1" /> <!-- Critical Hit -->
+ 		</skillList>
+ 		<dropLists>
+ 			<drop>
+@@ -881,6 +886,7 @@
+ 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+ 			<skill id="32675" level="1" /> <!-- Improved Immunity -->
+ 			<skill id="16511" level="6" /> <!-- Solo Fighter Monster -->
++			<skill id="32827" level="1" /> <!-- Critical Hit -->
+ 		</skillList>
+ 		<dropLists>
+ 			<drop>
